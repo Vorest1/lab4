@@ -3,9 +3,7 @@
   hosts: local
   become: true
   gather_facts: yes
-#
-# Change file
-#
+# Change Proj
   tasks:
     - name: Ping localhost
       ping:
